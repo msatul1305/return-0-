@@ -1,6 +1,6 @@
-#include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
-main()
+int main()
 {
 	int test,m,n,a,b,r;
 	char arr[100][100];
@@ -29,4 +29,5 @@ main()
 		r=a<b?a:b;
 		cout<<r<<endl;
 	}
+	return 0;
 }

@@ -1,6 +1,6 @@
-#include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
-main(){
+int main(){
 	int t;
 	cin>>t;
 	while(t--){
@@ -40,4 +40,5 @@ main(){
 		if(c==1)cout<<"Anuj"<<endl;
 		else if(c==2)cout<<"Ankit"<<endl;
 	}
+	return 0;
 }
